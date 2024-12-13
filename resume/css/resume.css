@@ -1,0 +1,63 @@
+/* Resume Page Styles */
+.resume-container {
+    max-width: 900px;
+    margin: 6rem auto 2rem;
+    padding: 2rem;
+    background: var(--white);
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
+}
+
+.resume-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid var(--light-bg);
+}
+
+.resume-header h1 {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.experience-section,
+.education-section {
+    margin-bottom: 3rem;
+}
+
+.experience-item,
+.education-item {
+    margin-bottom: 2rem;
+    padding-left: 1.5rem;
+    border-left: 3px solid var(--primary-color);
+}
+
+.company {
+    color: var(--primary-color);
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.skills-column ul {
+    list-style: none;
+    padding-left: 1.5rem;
+}
+
+.skills-column li {
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+
+.skills-column li::before {
+    content: "•";
+    color: var(--primary-color);
+    position: absolute;
+    left: -1.5rem;
+}

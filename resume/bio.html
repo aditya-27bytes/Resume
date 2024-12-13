@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bio-data - John Doe</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/bio.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">John Doe</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="resume.html">Resume</a>
+            <a href="bio.html" class="active">Bio-data</a>
+        </div>
+        <div class="menu-toggle">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+    </nav>
+
+    <main class="bio-container">
+        <div class="bio-header">
+            <div class="profile-image"></div>
+            <style>
+                /* Set full-page styling for centering */
+                body {
+                  display: flex; /* Enables Flexbox */
+                  justify-content: center; /* Horizontally centers the div */
+                  align-items: center; /* Vertically centers the div */
+                  min-height: 100vh; /* Ensures the height is 100% of the viewport */
+                  margin: 0; /* Removes default margin */
+                  background-color: #f0f0f0; /* Optional background color for visibility */
+                }
+              
+                /* Profile image styling */
+                .profile-image {
+                  width: 150px; /* Width of the circular image */
+                  height: 150px; /* Height matches width for a perfect circle */
+                  background-image: url('Adi.jpg'); /* Add your image path here */
+                  background-size: cover; /* Ensures the image fully covers the div */
+                  background-position: center; /* Centers the image */
+                  border-radius: 50%; /* Makes the image circular */
+                  border: 5px solid white; /* Optional border for styling */
+                  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for effect */
+                }
+              </style>
+              
+            <h1>Aditya Chougale</h1>
+            <p>Cybersecurity Expert & Graphic Designer</p>
+        </div>
+
+        <section class="personal-info">
+            <h2>Personal Information</h2>
+            <div class="info-grid">
+                <div class="info-item">
+                    <span class="info-label">Date of Birth:</span>
+                    <span>July 27,2004</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Email:</span>
+                    <span>adityasanjaychougale27@gmail.com</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Phone:</span>
+                    <span>+917353167822</span>
+                </div>
+                <div class="info-item">
+                    <span class="info-label">Location:</span>
+                    <span>Hubli, Karnataka</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="about-section">
+            <h2>About Me</h2>
+            <p>Hi, I am Aditya Chougale a dynamic and multifaceted individual passionate about merging technology with creativity. With expertise spanning UI/UX design, photography, programming, sketching, and movie reviews, he thrives at the intersection of functionality and aesthetics. His keen eye for detail and innovative mindset drive him to explore the seamless integration of utility and beauty in diverse media. A dedicated cybersecurity enthusiast, Aditya is constantly inspired by the challenge of safeguarding digital spaces while crafting experiences that resonate with both logic and emotion.</p>
+            <p>When I'm not securing networks or designing interfaces, you can find me contributing to open-source security projects and mentoring aspiring designers in the community.</p>
+        </section>
+
+        <section class="portfolio-section">
+            <h2>Portfolio Highlights</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <img src="https://plus.unsplash.com/premium_photo-1674506654010-22677db35bdf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTd8fGN5YmVyJTIwc2VjdXJpdHl8ZW58MHx8MHx8fDA%3D" alt="Security Project">
+                    <div class="portfolio-overlay">
+                        <h3>Security Implementation</h3>
+                        <p>Enterprise Security Solution</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://media.istockphoto.com/id/1304476690/photo/close-up-ux-developer-and-ui-designer-use-augmented-reality-app-brainstorming-about-mobile.webp?a=1&b=1&s=612x612&w=0&k=20&c=KoBXRfTUtknHxh4jA17UlfKz_kQXpmAjGnsMtv5J7lQ=" alt="Design Project">
+                    <div class="portfolio-overlay">
+                        <h3>UI/UX Design</h3>
+                        <p>Mobile Application Interface</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="https://media.istockphoto.com/id/2151954310/photo/shield-security-network-technology-wire-frame-concept.webp?a=1&b=1&s=612x612&w=0&k=20&c=dXCjIveEjelzAWqLkt3Hu6LXYhBSyH5vJAcCXhr06k8=" alt="Cybersecurity Project">
+                    <div class="portfolio-overlay">
+                        <h3>Security Analysis</h3>
+                        <p>Network Protection System</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
